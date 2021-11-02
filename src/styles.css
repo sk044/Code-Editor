@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.editor {
+  background-color: #fafafa;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  height: calc(100vh - 33rem);
+}
+
+.langSelect{
+  border: 3px solid #e2e2e2;
+  border-radius: 6px;
+  float: right;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 120px;
+}
+
+.box {
+  font-family: "Fira code", "Fira Mono", monospace;
+  font-size: 14;
+  background-color: #ffffff;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+  width: 100%;
+  min-height: 550px;
+  /* height: 550px; */
+}
+
+textarea:focus, .box:focus, .langSelect:focus{
+  outline: none;
+}
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+}
